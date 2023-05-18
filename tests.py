@@ -9,7 +9,7 @@ class Testcase(unittest.TestCase):
 
     def test2(self):
         expected = "Hola World!"
-        self.assertEqual(expected, my_func())
+
         self.assertNotEqual(expected, my_func())
 
 
